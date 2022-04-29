@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 7);
 }
 
 .d-bloc button:hover {
@@ -362,6 +362,41 @@ a:hover {
     z-index: 2;
 }
 
+.new-title{
+    max-width: 613px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.new-citation{
+    max-width: 600px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.new-auteur {
+    color: rgb(90, 90, 90);
+    font-style: normal;
+    font-size: 18px;
+}
+
+.row-no-gutters {
+    padding-bottom: 30px;
+}
+
+.row-no-gutters .fa:hover {
+    color: #fff;
+}
+
+footer nav a{
+    color:rgb(55, 55, 55)!important;
+}
+
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -487,157 +522,7 @@ button {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
 
-.panel-sq,
-.panel-sq .panel-heading,
-.panel-sq .panel-footer {
-    border-radius: 0;
-}
 
-.panel-rd {
-    border-radius: 30px;
-}
-
-.panel-rd .panel-heading {
-    border-radius: 29px 29px 0 0;
-}
-
-.panel-rd .panel-footer {
-    border-radius: 0 0 29px 29px;
-}
-
-.form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
-}
-
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-}
-
-.scrollToTop span {
-    margin-top: 6px;
-}
-
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
-}
-
-a[data-lightbox] {
-    position: relative;
-    display: block;
-    text-align: center;
-}
-
-a[data-lightbox]:hover::before {
-    content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-    font-size: 32px;
-    width: 50px;
-    height: 50px;
-    margin-left: -25px;
-    border-radius: 50%;
-    background: rgba(0, 0, 0, .6);
-    color: #FFF;
-    font-weight: 100;
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-}
-
-a[data-lightbox]:hover img {
-    opacity: 0.6;
-    -webkit-animation-fill-mode: none;
-    animation-fill-mode: none;
-}
-
-#lightbox-modal {
-    display: flex;
-    align-items: center;
-}
-
-#lightbox-modal .modal-dialog {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto 0;
-}
-
-#lightbox-modal .modal-dialog img {
-    max-height: 90vh;
-    margin: 0 auto;
-}
-
-.lightbox-caption {
-    padding: 20px;
-    color: #FFF;
-    background: rgba(0, 0, 0, .5);
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 5px;
-}
-
-.close-lightbox {
-    color: #FFF;
-    font-size: 30px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 20;
-    background: rgba(0, 0, 0, .5);
-    border: none;
-    line-height: 30px;
-    padding: 0 9px 5px;
-    opacity: 0.3;
-}
-
-.close-lightbox:hover,
-.next-lightbox:hover,
-.prev-lightbox:hover {
-    opacity: 1.0;
-    color: #FFF;
-}
-
-.next-lightbox,
-.prev-lightbox {
-    font-size: 20px;
-    color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
-    transition: all .2s ease-in-out;
-    position: absolute;
-    top: 45%;
-    z-index: 1;
-    opacity: 0.4;
-}
-
-.next-lightbox {
-    padding: 6px 8px 1px 13px;
-    right: 25px;
-}
-
-.prev-lightbox {
-    padding: 6px 13px 1px 10px;
-    left: 25px;
-}
-
-.snapshot-lb .modal-body {
-    padding-bottom: 45px;
-}
-
-.snapshot-lb .lightbox-caption {
-    padding: 0;
-    color: rgba(0, 0, 0, .5);
-    background: none;
-}
 
 h1,
 h2,
@@ -677,7 +562,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -701,16 +586,16 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 27px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -741,6 +626,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
