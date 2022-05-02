@@ -1,3 +1,36 @@
+.new-title{
+    max-width: 613px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.new-citation{
+    max-width: 600px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.new-auteur {
+    color: rgb(90, 90, 90);
+    font-style: normal;
+    font-size: 18px;
+}
+
+.row-no-gutters {
+    padding-bottom: 30px;
+}
+
+.row-no-gutters .fa:hover {
+    color: #fff;
+}
+
+footer nav a{
+    color:rgb(55, 55, 55)!important;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -91,7 +124,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -362,41 +395,6 @@ a:hover {
     z-index: 2;
 }
 
-.new-title{
-    max-width: 613px;
-    margin: 0 auto;
-    font-size: 22px;
-}
-
-.new-citation{
-    max-width: 600px;
-    font-style: italic;
-    font-size: 20px;
-    font-weight: 300;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.new-auteur {
-    color: rgb(90, 90, 90);
-    font-style: normal;
-    font-size: 18px;
-}
-
-.row-no-gutters {
-    padding-bottom: 30px;
-}
-
-.row-no-gutters .fa:hover {
-    color: #fff;
-}
-
-footer nav a{
-    color:rgb(55, 55, 55)!important;
-}
-
-
-
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -666,7 +664,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -696,19 +694,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -768,7 +766,7 @@ h4 {
         width: 100%;
     }
     .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
+    .bloc-fill-screen .fill-ottom-edge {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
